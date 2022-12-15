@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "c117deca-bfd6-4f44-a9ed-b75c9512fc49",
+		"name": "game_shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24541231"
+	},
+	"item": [
+		{
+			"name": "mysite3.rus/testusername.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "jagon",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "mysite3.rus/testusername.php",
+					"host": [
+						"mysite3",
+						"rus"
+					],
+					"path": [
+						"testusername.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "jagon",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kurilov.сделай.site/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Daniel\",\r\n    \"phone\": \"+7895454\",\r\n    \"email\": \"gg@mail.com\",\r\n    \"psw\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-kurilov.сделай.site/api/users",
+					"protocol": "http",
+					"host": [
+						"k-kurilov",
+						"сделай",
+						"site"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kurilov.сделай.site/api/games/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"God of War Ragnarok\",\r\n    \"description\": \"God of War: Ragnarök — компьютерная игра в жанре action-adventure с элементами hack and slash, разработанная компанией Santa Monica Studio и изданная Sony Interactive Entertainment.\",\r\n    \"price\": 1350\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-kurilov.сделай.site/api/games/2",
+					"protocol": "http",
+					"host": [
+						"k-kurilov",
+						"сделай",
+						"site"
+					],
+					"path": [
+						"api",
+						"games",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kurilov.сделай.site/api/admins/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Gabriel\",\r\n    \"phone\": \"+712398139\",\r\n    \"email\": \"afdsas@mail.ru\",\r\n    \"psw\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-kurilov.сделай.site/api/admins/2",
+					"protocol": "http",
+					"host": [
+						"k-kurilov",
+						"сделай",
+						"site"
+					],
+					"path": [
+						"api",
+						"admins",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mysite3.rus/testusername.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "jagon",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "mysite3.rus/testusername.php",
+					"host": [
+						"mysite3",
+						"rus"
+					],
+					"path": [
+						"testusername.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "jagon",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
